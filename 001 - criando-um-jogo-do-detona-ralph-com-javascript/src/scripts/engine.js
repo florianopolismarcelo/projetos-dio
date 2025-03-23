@@ -27,6 +27,11 @@ function countDown() {
     alert("Game Over! O seu resultado doi: " + state.values.result);
   }
 }
+function playSound(audioName) {
+  let audio = new Audio(`./src/audios/${audioName}.m4a`);
+  audio.volume =0.1;
+  audio.play();
+}
 
 function randomSquare() {
   state.view.squares.forEach((square) => {
@@ -45,6 +50,7 @@ function addListenerHitBox() {
         state.values.result++
         state.view.score.textContent = state.values.result;
         state.values.hitPosition = null;
+        playSound("hit");
       }
     })
   });
