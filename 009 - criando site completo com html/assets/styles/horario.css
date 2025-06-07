@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  outline: none;
+  text-decoration: none;
+  transition: 0.2s linear;
+  font-family: Merriweather, sans-serif;
+}
+
+form {
+  border: 1rem;
+  border: 1px;
+  padding: 3rem;
+}
+
+body {
+  background-color: #f8fdff;
+}
+
+.navbar a {
+  margin: 0 3rem;
+  font-size: 1.5rem;
+  color: #1a799a;
+}
+
+.navbar a:hover {
+  color: #147fbd;
+  font-size: 1.8rem;
+}
+
+table {
+  -webkit-box-shadow: 12px 14px 6px 5px rgba(0, 0, 0, 0.24);
+  box-shadow: 12px 14px 6px 5px rgba(0, 0, 0, 0.24);
+  border: solid 2px black;
+}
+
+#menu {
+  background-color: #1a799a;
+  color: white;
+}
+
+fieldset {
+  border: 0;
+  margin: -1rem;
+}
+textarea,
+button,
+input {
+  border-radius: 0.5rem;
+  border: solid 1px #1a799a;
+}
+
+.campo {
+  margin: 1rem;
+}
+
+.campo label {
+  margin-bottom: 0.2rem;
+  color: #147fbd;
+  display: block;
+}
+
+.campo input[type="text"],
+.campo input[type="email"],
+.campo textarea {
+  padding: 0.2rem;
+  border: 1px solid #1a799a;
+  box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.2);
+}
+
+.botao {
+  font-size: 1.2rem;
+  background: #bbecf8;
+  border: 0;
+  margin-bottom: 1rem;
+  color: #147fbd;
+  padding: 0.2rem 0.6rem;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+iframe {
+  width: 50%;
+  height: 300px;
+}
+
+footer {
+  background: #bbecf8;
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+footer p {
+  text-align: center;
+  padding: 40px;
+}

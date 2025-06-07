@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  transition: 0.2s linear;
+  font-family: Merriweather, sans-serif;
+}
+
+body {
+  background-color: #f8fdff;
+}
+
+.banner {
+  width: 100%;
+  height: 30vh;
+  background: url(../images/banner.jpg) no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+}
+
+section {
+  padding: 3rem 2rem;
+  margin: 0 auto;
+  max-width: 1200;
+}
+
+.header {
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  border-bottom: #1a799a 2px solid;
+}
+
+.header section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  background-color: #f6fbfe;
+}
+
+.navbar a {
+  margin: 0 3rem;
+  font-size: 1.5rem;
+  color: #1a799a;
+}
+
+.navbar a:hover {
+  color: #147fbd;
+  font-size: 1.8rem;
+}
+
+.btn {
+  background-color: #bbecf8 ;
+  color: #147fbd;
+  padding: 1rem 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  display: inline-block;
+  border-radius: 50px;
+}
+
+.home-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;  
+  margin-top: -0.9rem;
+}
+
+.home-container section {
+  display: flex;
+  align-items: center;
+}
+ 
+.content {
+  max-width: 60rem;
+}
+
+.content h3 {
+  color: black;
+  font-size: 1rem;
+}
+
+.content p {
+  color: black;
+  font-size: 1rem;
+  font-weight: 100;
+  padding: 1rem 0;
+}
+
+footer {
+  background: #bbecf8;
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+footer p {
+  text-align: center;
+  padding: 40px;
+}
