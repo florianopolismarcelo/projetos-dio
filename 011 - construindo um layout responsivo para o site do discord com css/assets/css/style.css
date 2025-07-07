@@ -1,0 +1,73 @@
+
+.header{
+
+    position: absolute;
+    width: 1280px;
+    height: 459px;
+    left: 0px;
+    top: 0px;
+    
+}
+
+.section1{
+
+    position: absolute;
+    width: 971px;
+    height: 394px;
+    left: 30px;
+    top: 499px;
+
+}
+
+.section2{
+
+    position: absolute;
+    width: 1280px;
+    height: 448px;
+    left: 0px;
+    top: 933px;
+    background: #F6F6F6;
+
+}
+
+.section3{
+
+    position: absolute;
+    width: 1280px;
+    height: 448px;
+    left: 0px;
+    top: 1421px;
+
+}
+
+.section4{
+
+    position: absolute;
+    width: 1280px;
+    height: 744px;
+    left: 0px;
+    top: 1909px;
+    background-image: url(image/Section\ 4m.png);
+    background: #F6F6F6;
+
+}
+
+.frame1{
+
+    position: absolute;
+    width: 1280px;
+    height: 134px;
+    left: 0px;
+    top: 2658px;
+
+}
+
+
+
+
+
+
+
+
+
+
